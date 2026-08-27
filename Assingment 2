@@ -1,0 +1,13 @@
+# Largest of three numbers
+x=float(input("Enter a:"))
+y=float(input("Enter b:"))
+z=float(input("Enter c:"))
+
+if x>y and x>z:
+    print("The largest number is", x)
+
+elif y>x and y>z:
+    print("The largest number is", y)
+
+else:
+    print("The largest number is", z)
